@@ -54,7 +54,7 @@ let currentYear= new Date().getFullYear();
 console.log(`Current year: ${currentYear}`)
 
 //11.Number of followers on a social media platform: 1,000,000
-let followers:number= 1000000
+let followers:string= "1,000,000"
 console.log(`Number of followers on a social media platform: ${followers}`)
 
 //12.Rating of a movie: 7.5
@@ -98,8 +98,6 @@ let distance:number=200.5
 console.log(`Distance between two cities: ${distance}`)
 
 
-// Time taken to complete the assignment : 15 minutes
-//Submitted By
-//Shuruti Singhal
+
 
 
