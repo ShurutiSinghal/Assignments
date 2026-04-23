@@ -12,7 +12,7 @@ let studentNames:String[]=["Suresh","Mahesh","Naresh"];
 //Array to store student marks
 let marks:number[]=[75, 80, 82];
 //Array to store updated marks
-let newMarks:number[]= new Array();
+let newMarks:number[]= [];
 
 //adding 10 marks to each student and store in new Array
 for(let i:number=0;i<marks.length;i++)
@@ -27,7 +27,7 @@ for(let m of newMarks)
       //console.log(m)
       average+=m;
    }
-average/=3;
+average/=newMarks.length;
 
 //printing the ouput
 console.log("Updated Marks:")
