@@ -3,7 +3,7 @@ number greater than 1 that has no positive divisors other than 1 and itself.
 */
 
 function checkPrime(n:number):boolean{
-    if(n==0||n==1)
+    if(n<=1)
         return false;
     else{
         for(let i=2;i<n;i++)
