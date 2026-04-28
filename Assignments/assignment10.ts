@@ -31,7 +31,7 @@ function calcMaxProfit(price:number[],dayToBuy:number):void
     let maxProfit:number=0;
     let dayToSell:number=0;
 
-    //to store stock price on day to Buy
+    //to store stock price on day to Buy and undefined for sellDay
     let stockPriceOnBuyDay:number=price[dayToBuy-1]; 
     let stockPriceOnSellDay:number|undefined=undefined;
 
@@ -51,6 +51,11 @@ function calcMaxProfit(price:number[],dayToBuy:number):void
    console.log(`Stock prices day wise: ${price}`)
    console.log(`Stocked buy at day:${dayToBuy}`)
    console.log(`Price of stock:${stockPriceOnBuyDay}`)
+ 
+   // Check if a day was found when stockPriceOnSellDay is undefined
+   //It is undefined if no stock price is found whose value is greater than 
+   //stock price when the stock was bought
+
    if(stockPriceOnSellDay!==undefined)
    {
    console.log(`Max profit can be earned if stock is sell on day :${dayToSell}`)
@@ -63,13 +68,17 @@ function calcMaxProfit(price:number[],dayToBuy:number):void
 }
 
 
+//Array to store stock
 let prices:number[]=[7,1,5,3,6,4];
 let dayToBuyStock:number=2; // here the day is 1st index
 
 //calling function to know day to sell and maximum profit that can be earned
 calcMaxProfit(prices,dayToBuyStock);
 
+
 console.log("/*********************************************/")
+
+//2nd case: where no day was there when we can earn profit 
  prices=[7,6,4,3,1];
  dayToBuyStock=2; // here the day is 1st index
 
