@@ -23,6 +23,9 @@
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
+    // Adding module configurations to allow using ES Modules in Node.js 
+     "noEmit": true, 
+     "allowImportingTsExtensions": true,
 
     // Style Options
     // "noImplicitReturns": true,
