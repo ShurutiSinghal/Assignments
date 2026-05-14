@@ -35,7 +35,7 @@ export default defineConfig({
      trace:'on', // will take traces/evidences everytime
      video:'on', // will create video also
      screenshot:'on',
-    /* headless:false, */ //by default it is false
+     headless:false,  //by default it is false
     
   },
 
