@@ -2,7 +2,11 @@
   "name": "playwright-training",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "testcase":"npx playwright test tests/Assignment/3-webActions.spec.ts --headed",
+    "testcase1":"npx playwright test tests/Assignment/4-alerts.spec.ts --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
