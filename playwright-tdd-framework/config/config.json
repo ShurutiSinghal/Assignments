@@ -1,0 +1,20 @@
+{
+    "app":{
+        "url":"demo_url",
+        "username":"admin",
+        "password":"admin"
+    },
+    "api":{
+        "url":"api.url.com"
+    },
+    "db":{
+        "host":"localhost:3300",
+        "port":"3030",
+        "username":"admin",
+        "password":"admin"
+    },
+    "ollama":{
+        
+    }
+
+}
