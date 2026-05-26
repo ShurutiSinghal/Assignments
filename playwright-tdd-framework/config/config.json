@@ -1,8 +1,9 @@
 {
     "app":{
-        "url":"demo_url",
-        "username":"admin",
-        "password":"admin"
+        "url":"https://accounts.creatio.com/login/alm",
+         "title":"Log in | Creatio",
+        "username":"shurutisinghal23@gmail.com",
+        "password":"Shuruti@1234"
     },
     "api":{
         "url":"api.url.com"
