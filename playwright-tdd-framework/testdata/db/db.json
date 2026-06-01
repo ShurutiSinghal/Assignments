@@ -1,0 +1,5 @@
+{    
+    "Verify Cookies popup content": "SELECT CONTENT FROM CREATIO WHERE tc_name = 'Verify Cookies popup content' ",
+    "Verify login with valid credentials":"select username, password, button from userCreatio where status='valid'"
+} 
+

@@ -12,17 +12,17 @@
    },
    "Verify login with invalid credentials":{
      "buttonName":"Allow All",
-        "username":"test@test.com",
-         "password":"Test@1234",
-         "expectedErrorMsg":"Invalid email or password."
+     "username":"test@test.com",
+     "password":"Test@1234",
+     "expectedErrorMsg":"Invalid email or password."
    },
    "Verify forgot password functionality":{
          "buttonName":"Allow All",
          "username":"shurutisinghal23@gmail.com"
    },
    "Verify adding a new user":{
-     "buttonName":"Allow All",
-          "username":"shurutisinghal23@gmail.com",
+        "buttonName":"Allow All",
+        "username":"shurutisinghal23@gmail.com",
         "password":"Shuruti@1234",
         "newUserEmail":"newuser@example.com",
         "newUserRole":"Developer"

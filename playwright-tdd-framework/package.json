@@ -6,7 +6,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type":"module",
+  "type": "module",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.60.0",

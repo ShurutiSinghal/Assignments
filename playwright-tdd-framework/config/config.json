@@ -9,10 +9,11 @@
         "url":"api.url.com"
     },
     "db":{
-        "host":"localhost:3300",
-        "port":"3030",
-        "username":"admin",
-        "password":"admin"
+        "host":"localhost",
+        "port":5432,
+        "username":"postgres",
+        "password":"admin",
+        "database":"dvdrental"
     },
     "ollama":{
         
