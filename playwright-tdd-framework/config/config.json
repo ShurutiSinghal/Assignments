@@ -6,7 +6,9 @@
         "password":"Shuruti@1234"
     },
     "api":{
-        "url":"api.url.com"
+        "base_url":"https://api.github.com",
+        "owner":"Shuruti1234",
+        "token":"Bearer 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"
     },
     "db":{
         "host":"localhost",

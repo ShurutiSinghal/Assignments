@@ -1,0 +1,50 @@
+{
+  "Get the existing repository" : {
+    "transaction" : "Get the existing repository",
+    "sampleCount" : 200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 529.9099999999996,
+    "medianResTime" : 464.0,
+    "minResTime" : 343.0,
+    "maxResTime" : 1877.0,
+    "pct1ResTime" : 758.3000000000001,
+    "pct2ResTime" : 1469.099999999998,
+    "pct3ResTime" : 1875.8200000000002,
+    "throughput" : 18.686349621601423,
+    "receivedKBytesPerSec" : 134.11215021489303,
+    "sentKBytesPerSec" : 3.7956647668877888
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 400,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 462.89250000000004,
+    "medianResTime" : 393.0,
+    "minResTime" : 343.0,
+    "maxResTime" : 1877.0,
+    "pct1ResTime" : 517.7,
+    "pct2ResTime" : 768.55,
+    "pct3ResTime" : 1856.7500000000002,
+    "throughput" : 36.029544226265536,
+    "receivedKBytesPerSec" : 261.9460457575212,
+    "sentKBytesPerSec" : 8.778682894973878
+  },
+  "Update the existing repository" : {
+    "transaction" : "Update the existing repository",
+    "sampleCount" : 200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 395.8750000000001,
+    "medianResTime" : 390.0,
+    "minResTime" : 351.0,
+    "maxResTime" : 826.0,
+    "pct1ResTime" : 418.8,
+    "pct2ResTime" : 432.95,
+    "pct3ResTime" : 742.5000000000014,
+    "throughput" : 21.54011847065159,
+    "receivedKBytesPerSec" : 158.61310245018848,
+    "sentKBytesPerSec" : 6.121264135702746
+  }
+}
