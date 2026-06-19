@@ -24,7 +24,7 @@ export class JMeterCommons
         console.log(`Running JMeter test plan :${testPlanPath}`)
 
         const projectPath= process.cwd();
-        const jMeterBasePath= `${projectPath}/tests/load/jmeter`;
+        const jMeterBasePath= `${projectPath}/step-definitions/load/jmeter`;
         const jMeterToolPath= `${jMeterBasePath}/bin/jmeter.bat`;
         const testPlanFullPath = `${jMeterBasePath}/testplans/${testPlanPath}`;
 
